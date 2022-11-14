@@ -10,16 +10,16 @@ module.exports = () => {
     mode: "development",
     entry: {
       main: "./src/js/index.js",
-      install: "./src/js/install.js",
+      install: "./src/js/install.js"
     },
     output: {
       filename: "[name].bundle.js",
-      path: path.resolve(__dirname, "dist"),
+      path: path.resolve(__dirname, "dist")
     },
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "J.A.T.E.",
+        title: "J.A.T.E."
       }),
 
       new InjectManifest({
@@ -41,8 +41,8 @@ module.exports = () => {
           {
             src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join("assets", "icons"),
-          },
+            destination: path.join("assets", "icons")
+          }
         ],
       }),
     ],
