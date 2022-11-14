@@ -53,11 +53,11 @@ THEN I should have proper build scripts for a webpack application
 
 ## Link to repository on GitHub
 
-
+https://github.com/justkayla/19-text-editor 
 
 ## Link to deployed site on Railway
 
-
+https://19-text-editor-production-19ea.up.railway.app/ 
 
 ## Screenshots of deployed application
 
